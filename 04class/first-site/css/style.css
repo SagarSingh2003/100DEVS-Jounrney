@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Rubik:ital,wght@0,400;1,400;1,700&family=Source+Sans+3:wght@700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* .top-content{
+    padding-bottom: 100px;
+} */
+
+body{
+    background-color: rgb(110, 208, 235);
+    border: 5px solid rgb(26, 183, 26);
+    color: white;
+    font-family: Rubik;
+    margin: 20px 20px auto 20px;
+    padding: 40px;
+
+}
+
+img{
+    position: relative;
+    height: 300px;
+    float: right;
+    bottom: 40px;
+    padding: 30px;
+}
+
+.bottom-content{
+    padding-top: 30px;
+}
+
+a{
+    color: rgb(18, 179, 34);
+    text-decoration: none;
+}
+
+p{
+    line-height: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul > li{
+    display: inline-block;
+}
+
+ul{
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul > li{
+    display: inline-block;
+    font-weight: 700;
+}
+
+h1{
+
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+h4{
+  font-style: bold;
+  font-weight: 700;  
+}
+
+.line{
+    color: gray;
+}

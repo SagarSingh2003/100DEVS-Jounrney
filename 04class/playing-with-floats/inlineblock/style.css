@@ -1,0 +1,17 @@
+header,section ,footer{
+    background-color: green;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 50px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding-top:14px;
+}
+
+
+section{
+    display: inline-block;
+    width: 33.1%;
+
+}

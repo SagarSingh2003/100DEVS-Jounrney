@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Source+Sans+3:wght@700&display=swap');
+
+/* <!-- Please make the li's blue, underlined, 15px, and have a gray background --> */
+
+ul>li{
+  background-color: gray;
+  color: blue;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+/* <!-- Please make this section have a height of 300px, a light purple background, a gold border that is 5px thick --> */
+
+section{
+    height: 300px;
+    background: purple;
+    border: 5px solid gold;
+}
+
+/* <!-- Please make this footer have a dark brown background, 300px in height, and only 70% width. --> */
+
+footer{
+    background: #1b0000;
+    height: 300px;
+    width: 70%;
+}
+
+footer h2{
+    text-decoration: line-through;
+}
+
+/* <!-- Please make this h1 30px, gold, centered, and use the Source Sans Pro Font  --> */
+
+section h1{
+    font-size: 30px;
+    font-style: 'Source Sans Pro' , sans-serif;
+    color: gold;
+    text-align: center;
+}

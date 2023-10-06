@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+h1{
+    color: blue;
+    text-decoration: underline;
+    background: gold;
+}
+
+h2{
+    
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    border: dashed orange;
+}
+
+section{
+    border: solid black;
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+}
+
+section p{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: solid lightgreen;
+    font-family: Roboto;
+}
+

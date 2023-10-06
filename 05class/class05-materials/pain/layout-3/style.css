@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+header, footer{
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+
+.col-1-20{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    float:left;
+}
+
+.col-1-40{
+    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+    float: left;
+}
