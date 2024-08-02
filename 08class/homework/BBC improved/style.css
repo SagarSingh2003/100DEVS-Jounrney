@@ -1,0 +1,138 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background: black;
+    color: white;
+}
+
+header nav img , header nav span , header nav ul , header nav ul li , header nav form {
+    display: inline-block;
+}
+
+header nav img{
+    width: 15%;
+    padding: 2rem;
+    border-right: 0.1px solid white;
+}
+
+header nav span{
+    width: 15%;
+    padding: 2rem;
+    border-right: 0.1px solid white;
+}
+
+header nav ul{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    list-style-type: none ; 
+    width:10.5%;   
+    padding: 2rem;
+    border-right: 0.1px solid white;
+}
+
+header nav form {
+    width: 19%;
+    padding: 2rem;    
+}
+header nav input {
+    width: 60%;
+    height: 2.5rem;
+}
+
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* 
+==============================main==================\ */
+
+/* main h3{
+    float: left;
+    width: 80%;
+    padding-left: 2rem;
+} */
+main h3.heading{
+    color: rgb(98, 97, 97);
+}
+main h3 > span{
+    padding-left: 116rem;
+    color: gray;
+}
+main h3 + h3{
+    float: right;
+    width: 14%;
+    color: lightgray;
+}
+
+main > section.first-one{
+    float: left;
+    width: 50%;
+    height: 50rem;
+    border: 0.1px solid white;
+    padding-top: 30rem;
+    padding-left: 2rem;
+    background-color: black;
+    color: white;
+}
+
+main > section.first-one p , main > section.first-one span{
+    color: gray;
+}
+
+main > section.second-one section{
+    clear: right;
+    float: left;
+    width: 25%;
+    height: 25rem;
+    border: 0.1px solid white;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    background-color: black;
+    color: white ;
+}
+
+main > section section span{
+    float: left;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 0.1rem;
+    color: gray;
+}
+
+/* =============================News============================= */
+
+footer > span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 2rem;
+
+}
+
+footer > section{
+    border: 0.1px solid black;
+    float: left;
+    width: 32%;
+    height: 25rem;
+    padding-left:2rem;
+    padding-top: 2rem;
+    margin-right: 2rem;
+
+}
+

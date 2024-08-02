@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Roboto:wght@300;400;700&family=Rubik:ital,wght@0,400;1,400;1,700&family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Roboto:wght@300;400;700&family=Rubik:ital,wght@0,400;1,400;1,700&family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Roboto+Condensed:wght@300;400;500;600;700&family=Roboto:wght@300;400;700&family=Rubik:ital,wght@0,400;1,400;1,700&family=Source+Sans+3:wght@700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ===========================body=========== */
+
+body{
+	background-color: #66768A;
+	font-family: 'Roboto Condensed';
+}
+
+html{
+	font-size: 62.5%;
+}
+/*                                                                       style begins here  */
+
+.navigation{
+	margin: 2rem;
+	font-size: 1rem;
+	color: white;
+	font-weight: bold;
+}
+
+.navigation ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 30%;
+	flex-grow: 1;
+}
+
+.navigation ul div:first-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	box-sizing:border-box;
+}
+
+.navigation ul li:nth-child(2){
+	padding-left: 2rem;
+}
+
+.navigation ul div:last-child li{
+	background-color: white;
+	color: #66768A;
+	padding: 0.3rem;
+	border-radius: 0.13rem;
+}
+
+/* 
+=========================first-section============ */
+
+.first-section{
+	text-align: center;
+	margin: 10rem 15rem 25rem 15rem;
+	color: white;	
+}
+
+.first-section h1{
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+
+.first-section p, .first-section span{
+	margin-top: 5rem;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.first-section svg{
+	margin-top: 5rem;
+	font-size: 4rem;
+}
+
+.first-section-span{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.first-section-span span:nth-child(2){
+	padding-left: 2rem;
+}
+
+
+/* ============================second-section================ */
+
+.second-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 auto;
+	text-align: center;
+	padding: 15rem 0 15rem 0;
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	background-color: white;
+}
+
+.second-section h2{
+	font-size: 3rem;
+	font-weight: bold;
+	padding-bottom: 3rem;
+	line-height: 4.5rem;	
+}
+
+.second-section p{
+	padding: 0 35rem 0 35rem;
+}
+
+/* =================================third-section================= */
+
+.third-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding:2%;
+	flex: 1 43%;
+	background-color: #DBDFE2;
+}
+
+.third-section div{
+	height: 15rem;
+	width: 20rem;
+	border: 0.1rem solid  #66768A;
+	background-color:  #66768A;
+}
+
+.third-section .third-section-first-section, .third-section .third-section-second-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	flex-basis: 27%;
+	padding: 10% 2% 10% 10%;
+}
+
+.third-section .third-section-second-section{
+	padding: 10% 10% 10% 2%;
+}
+
+.style-1 h4 , .style-1 p , .style-1 span{
+	padding-top: 3rem;
+}
+
+.style-1 h4{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.style-1 span{
+	margin-top: 3rem;
+	padding: 1.2rem 3rem 1.2rem 3rem;
+	border: 0.1rem solid black;
+	font-size: 1rem;	
+	font-weight: 500;
+}
+
+.style-1 p{
+	font-size: 1.3rem;
+}
+
+/* 
+===========================fourth-section=============== */
+
+.second-section span{
+	margin-top: 2rem;
+	padding: 0.9rem 3rem 0.9rem 3rem;
+	border: 0.1rem solid black;
+	font-size: 1rem;	
+	font-weight: 500;
+}
+
+/* ===============================footer================ */
+
+
+footer{
+	background-color: #161f2A;
+
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 0.1rem solid white;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	font-size: 1.3rem;
+	color: white;
+	padding-bottom: 2rem;
+}
+
+.footer .left{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 75%;
+}
+.footer .right{
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.img svg{
+	padding-top: 1rem;
+}
+
+.head{
+	padding-top: 1rem;
+	color: #66768A;
+}
+
+.footer-style{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-style span:nth-child(2){
+	padding-left: 1rem;
+}
+
+footer p{
+	background-color: #161f2A;
+	color: white;
+	padding: 1rem 2rem 1rem 2rem;
+	font-size: 1.3rem;
+}
+
+/* ==========================media queries============== */
+
+
+/* ======================= 913px ===================== */
+
+@media screen and (max-width: 913px) {
+	.second-section p{
+		padding: 0 20rem 0 20rem;
+	}	
+}
+
+@media screen and (max-width: 710px){
+	.second-section p{
+		padding: 0 15rem;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.second-section p{
+		padding: 0 9rem;
+	}
+
+	.first-section{
+		margin-left: 9rem;
+		margin-right: 9rem;
+	}
+
+	.first-section p{
+		font-size: 1.4rem;
+		line-height: 2.1rem;
+	}
+
+	.first-section h1 {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 524px){
+	.third-section{
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+
+	.third-section .third-section-first-section, .third-section .third-section-second-section{
+		padding: 10%;
+	}
+}
+

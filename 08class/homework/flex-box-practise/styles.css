@@ -1,0 +1,123 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+=================header========== */
+
+.product-filter{
+    display: flex;
+}
+
+.product-filter h1{
+    flex-grow: 1;
+}
+
+.sort{
+    display: flex;
+}
+
+.collection-sort{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+====================  main */
+
+img{
+    height: 119px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    padding: 2%;
+    flex: 1 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image img{
+    max-width: 100%;
+}
+
+.product-info h5{
+    margin-top: auto;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 920px){
+    .product-card{
+        flex: 1 21%;
+    }
+
+    .products .product-card:first-child,
+    .products .product-card:nth-child(2){
+        flex: 2 46%;
+    }
+}
+
+@media (max-width: 600px){
+    .product-card{
+        flex: 1 46%;
+    }
+}
+
+@media (max-width:480px){
+    .product-filter{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,258 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+nav{
+    width: 100%;
+    height: 4rem;
+}
+
+nav ul {
+    height: 2rem;
+    width: 97%;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    height: 2rem;
+}
+
+nav ul li:first-child , nav ul li:nth-child(2){
+    width: 7%;
+}
+
+nav ul li:nth-child(3){
+    width: 80%;
+    box-sizing: border-box;
+    padding-left:60rem;
+}
+
+nav ul li:last-child{
+    border: 0.01rem solid black;
+    width: 4%;
+    padding-top: 0.5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 0.5rem;
+
+}
+
+/* =============================main=================== */
+
+main h1 ,main p, main span{
+    float: left;
+    width: 100%;
+    text-align:center;
+}
+
+main h1{
+    padding-top: 5rem;
+    font-size: 8rem;
+}
+
+main p{
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+main span{
+    padding-top: 5rem;
+    font-size: 2.2rem;
+    padding-bottom: 17rem;
+    border-bottom: 0.1px solid black;
+}
+
+/* ==========================first section======================== */
+
+main + section{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+main + section h2{
+    font-size: 3rem;
+    margin-top: 13rem;   
+}
+
+main + section p{
+    padding-left: 55rem;
+    padding-right: 55rem;
+    padding-bottom: 13rem;
+    font-size: 2rem;
+    border-bottom: 0.1px solid black;
+}
+
+/* ==========================second section============================= */
+
+section.second-section section{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 13rem;
+    border-bottom: 0.01rem solid black;
+}
+
+section.second-section div{
+    height: 25rem;
+    width: 45rem;
+    border: 0.1px solid black;
+    margin-top: 13rem;
+    margin-left: 22.5rem;
+    margin-right: 22.5rem;
+    background-color: rgba(7, 75, 114, 0.769);
+}
+
+section.second-section h4{
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+section.second-section section p{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 2rem;
+}
+
+section.second-section section span{
+    display: inline-block;
+    margin-top: 5rem;
+    border: 0.01rem solid black;
+    padding: 2rem 3rem 2rem 3rem;
+} 
+
+section.second-section section + section span{
+    padding: 2rem 4.5rem 2rem 4.5rem ;
+}
+
+
+
+
+/* =================================third section==================================== */
+
+section.third-section{
+    float: left;
+    width: 100%;
+    margin-top:13rem;
+    text-align: center; 
+    padding-bottom: 13rem;
+    border-bottom: 0.01rem solid black;
+}
+
+section.third-section h2{
+    font-size: 3rem;
+
+}
+
+section.third-section p{
+    padding-left: 55rem;
+    padding-right: 55rem;
+    font-size: 2rem;
+
+}
+
+section.third-section span{
+    display: inline-block;
+    margin-top: 5rem;
+    border: 0.01rem solid black;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+
+/* ====================footer========================== */
+
+
+/* ============================left=========================== */
+
+footer > div.left{
+    float: left;
+    width: 90%;
+}
+
+footer > div.right{
+    float: right;
+    width: 10%;
+}
+
+footer > div.left div.img{
+    float: left;
+    width: 3%;
+    font-size: 3rem;  
+    padding-top: 3rem;  
+}
+
+footer > div.left div.first{
+    padding-left: 2rem;
+}
+
+footer > div.left span.head{
+    float: left;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+footer > div.left span.body{
+    float: left;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+footer span.body > div{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+footer span.body div.first-body{
+    margin-left: 2rem;
+}
+
+footer span.body div.second-body{
+    margin-left: 3rem;
+}
+
+footer > p{
+    border-top: 0.1px solid black;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    clear: both;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* ===============================================right================================== */
+
+
+footer > div.right span{
+    float: right; 
+    width: 100%;
+    margin-right:2rem;
+}
+
+footer > div.right .first , footer > div.right .second{
+    font-weight: bold;
+}
+
+footer > div.right .first{
+    margin-top: 5rem;
+}
+
+footer > div.right .second{
+    margin-bottom: 2rem;
+}
+
+footer > div.right .sixth{
+    font-weight: bold
+}

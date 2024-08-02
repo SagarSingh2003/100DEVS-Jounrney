@@ -1,0 +1,374 @@
+html{
+font-size: 62.5%;
+}
+
+body{
+font-size: 1.6rem;
+margin: 0;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+
+
+/* ========================navbar=======================
+    */
+
+
+/* ============================above 600px=========================
+    */
+
+header nav div{
+    display: none;
+}
+
+header nav {
+    
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+    border-bottom: 0.01rem solid rgb(228, 220, 220); 
+}
+
+header nav ul {
+    list-style-type : none;
+    margin-right: 5rem;
+}
+
+header nav div + span , header nav ul{
+    float: left;
+    width: 20%;
+}
+
+header nav ul{
+    float: left;
+    width: 60%;
+}
+
+header nav ul + span{
+    float: left;
+}
+
+header nav li{
+    box-sizing: border-box;
+    float: left;
+    width: 15%;
+    padding-left:8rem;
+    margin-left: 3rem;
+}
+
+header nav div + span {
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+header nav ul + span{
+    box-sizing: border-box;
+    margin-top: 1.4rem;
+    margin-left: 14rem;
+    border: 0.01rem solid black;
+    padding: 0.4rem 1rem;
+    background-color: black;
+    color:white;
+}
+
+/* 
+==========================section 1=============== */
+
+header + section {
+    margin-left: 10rem;
+    width: 25%;
+}
+header + section span {
+    display: inline-block;
+    margin-top: 13rem;
+    font-weight: 600;
+    color: gray;
+}
+
+h1{
+    box-sizing: border-box;
+    font-size: 5.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;   
+}
+
+header + section input{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    width: 75%;
+    background-color: rgb(230, 237, 244);
+    border: none;
+    float: left;
+    font-size: 1.8;
+}
+
+header + section button{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.8rem;
+    width: 25%;
+    float: left;
+    color: white;
+    background-color: #032137b7;
+    border: none;
+    font-weight: bold;
+}
+
+header + section p {
+    clear: both;
+    margin-top: 8rem;
+    font-size: 2rem;
+}
+
+/* ======================================second-section================ */
+
+.second-section{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top : 15rem;
+}
+
+section > section{
+    float: left;
+    width: 25%;
+}
+
+section > section svg{
+    font-size: 3rem;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+section > section svg + span{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+section > section p{
+    font-size: 2rem;
+}
+
+section > section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* =========================section 3=============== */
+
+.second-section + section{
+    clear:both;
+    margin-top: 7.5rem;
+    border-top: 0.01rem solid rgb(144, 139, 139);
+    
+}
+section + section > h2{
+    padding-top: 7.5rem;
+    padding-left: 10rem;
+    font-size: 6.5rem;
+    width: 35%;
+    font-weight: 600;
+}
+
+section.second-section + section > p{
+    padding-left: 10rem;
+    font-size: 2rem;
+    width: 40%;
+}
+
+
+/* =============================================================media query=============== */
+
+/* 
+@media screen and (max-width:600px) {
+
+    nav ul, nav > ul + span , section + section{
+        display: none !important;
+    }
+
+    nav div , nav span{
+        float: left !important;
+        box-sizing: border-box !important;
+    }
+
+    nav div {
+        display: inline-block;
+        width: 10% !important;
+        padding-top: 0.8rem !important;
+        font-size: 2rem !important;
+        
+    }
+
+    nav span{
+        box-sizing: border-box !important;
+        width: 90% !important;
+        padding-left: 15rem !important;
+        padding-right: 15rem !important;
+        font-size: 3rem !important;
+        font-weight: bold !important;     
+    }
+
+    nav{
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 5rem;
+        border-bottom: 0.01rem solid rgb(228, 220, 220);
+        /* padding-bottom0: 2rem;  */
+    /* } */
+
+    /* ==========================section 1============================
+        */
+/* 
+    header + section{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    header + section > span{
+        display: inline-block;
+        margin-top: 4rem;
+        font-weight: 600;
+        color: gray;
+    }
+
+    h1{
+        box-sizing: border-box;
+        font-size: 6rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;   
+    }
+
+    header + section input{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 8px;
+        width: 100%;
+        background-color: rgb(230, 237, 244);
+        border: none;
+        font-size: 1.8;
+    }
+
+    header + section button{
+        margin-top: 20px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0.8rem;
+        width: 100%;
+        color: white;
+        background-color: #032137b7;
+        border: none;
+        font-weight: bold;
+    }
+
+    header + section p {
+        font-size: 2.5rem;
+    }
+}     */ 
+
+@media screen and (max-width: 600px){
+
+    header + section span{
+        margin-top: 6rem;
+    }
+
+    header nav div{
+        display: block;
+        float: left;
+        width: 10%;
+        padding-top: 1.3rem;
+        font-size: 2rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+    }
+
+    header nav svg{
+        display: block;
+    }
+    
+    header nav ul , header nav ul + span{
+        display: none;
+    }
+
+    header nav div + span{
+        width: 90%;
+    }
+
+    header nav div + span{
+        padding-left: 19rem;
+    }
+
+    /* =========================section 1========
+     */
+
+     header + section {
+        margin-left: 2rem;
+        width: 100%;
+    }
+
+    h1{
+        box-sizing: border-box;
+        font-size: 6rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;  
+    }
+    
+    header + section form input{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0.8rem;
+        width: 90%;
+        background-color: rgb(230, 237, 244);
+        border: none;
+        font-size: 1.8;
+    }
+    
+    header + section button{
+        margin-top: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0.8rem;
+        width: 90%;
+        color: white;
+        background-color: #032137b7;
+        border: none;
+        font-weight: bold;
+    }
+    
+    header + section p {
+        font-size: 2.2rem;
+        padding-top: 3rem;
+        width: 90%;
+        
+    }
+    
+    .second-section , section > section , section >  section svg , section > section svg + span , section > section  p , section > a , .second-section + section , section + section > h2 , section.second-section + section > p {
+        display: none;
+    }
+ 
+
+}

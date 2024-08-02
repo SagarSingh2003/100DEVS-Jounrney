@@ -1,0 +1,349 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ====================Additional Styles============= */
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+	background-image: linear-gradient( to top,  #DCE5EC , #ffffff);
+}
+
+
+header {
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 40%;
+	padding-top: 2%;
+	padding-bottom: 20rem;
+	background-color: #ffffff;
+}
+
+
+header nav li{
+	width: 12%;
+}
+
+header nav ul{
+	display: flex;
+	flex-direction: row;
+
+}
+/* ==================================main ==================== */
+
+main {
+
+	background-image: linear-gradient( to top,  #DCE5EC , #ffffff)
+}
+main {
+	padding-bottom: 40rem;
+}
+
+main h1{
+	font-size: 8rem;
+	font-weight: 600;
+	width: 60rem;
+	padding-left: 15rem;
+}
+
+main h1 span{
+	display: block;
+}
+
+form input#search-bar{
+	margin-top: 4rem;
+	margin-left: 15rem;
+	padding-right:  18rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	border: 0.1px solid gray;
+	border-radius: 1px;
+}
+
+form label > input{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	background-color: rgb(255, 106, 0);
+	color: white;
+	border: none;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	border-radius: 1px;
+}
+
+
+/* ===================== first-section ============= */
+
+
+.first-section {
+	background-color: #EFEFEF;
+}
+.first-section {
+	padding-top: 250px;
+	padding-bottom: 250px;
+	width: 100%;
+}
+
+.first-section section{
+	width: 60%;
+}
+
+.first-section section > span{
+	display: block;
+	padding-top: 10rem;
+	font-size: 1.8rem;
+	color: rgb(255, 106, 0);
+}
+
+
+
+.first-section section h3{
+	font-size: 7rem;
+	padding-right: 10%;
+	font-weight: bold;
+	padding-top: 2rem;
+}
+
+.first-section section p{
+	padding-top: 3rem;
+	line-height: 2.5rem;
+	/* padding-right: 20rem; */
+}
+
+.first-section section a {
+	display: block;
+	width: 14%;
+	text-decoration: none;
+	color: white;
+	border: 0.1px solid orange;
+	margin-top: 3rem;
+	background-color: rgb(255, 106, 0);
+	padding: 1rem;
+	text-align: center;
+}
+
+.first-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+.first-section{
+	background-image: url("./images/pic04.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* =======================second-section============= */
+
+.second-section span{
+	display: block;
+	text-align: center;
+	padding-top: 10rem;
+	color: rgb(255, 106, 0);
+}
+
+.second-section h2{
+	font-size: 10rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.second-section ul{
+	margin-left: 40rem;
+	font-size: 2rem;
+	border-bottom: 0.01rem solid gray;
+	margin-right: 38rem;
+}
+
+.second-section ul li{
+	display: inline-block;
+	padding-left: 7rem;
+	padding-right: 7rem; 
+	margin-top: 5rem;
+	padding-bottom: 1rem;
+}
+
+.second-section ul li:first-child{
+	color: rgb(255, 106, 0);
+	border-bottom: 3px solid rgb(255, 106, 0);
+}
+
+/* .second-section section {
+	padding-left: 16%;
+	
+} */
+.second-section section div{
+	width: 250px;
+	height: 30rem;
+	border: 1px solid black;
+	text-align: center;
+	/* margin-left: 3rem; */
+	/* margin-right: 3rem; */
+	margin-top: 8rem;
+}
+
+.second-section section{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-shrink: 1;
+	flex-grow: 1;
+	margin-left: 200px;
+	margin-bottom: 200px;
+}
+
+.second-section  section > div{
+	width: 16%;
+	margin-right: 20px;
+}
+
+/* =====================third-section============ */
+
+.third-section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20rem;
+	background-image: url("./images/pic04.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.third-section span{
+	display: block;
+	color: rgb(255, 106, 0);
+	padding-bottom: 2rem;
+}
+
+.third-section h3{
+	font-size: 7rem;
+	font-weight: bold;
+}
+
+.third-section h3 + span {
+	padding-top: 7rem;
+	color: black;
+}
+
+.third-section span + em{
+	display: block;
+	font-weight: bold;
+	font-size: 3rem;
+	color: rgb(255, 106, 0);
+}
+
+.third-section section {
+	width: 50%;
+}
+
+.third-section section span{
+	color: black;
+}
+
+.third-section div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.third-section section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/* ========================== fourth-section ========= */
+
+.third-section + section {
+	text-align: center;
+}
+
+.third-section + section span{
+	display: block;
+	color: rgb(255, 106, 0);
+	padding-bottom: 2rem;
+}
+
+.third-section + section h3{
+	font-size: 7rem;
+	font-weight: bold;
+	padding-bottom: 3rem;
+}
+
+.third-section + section h3 + svg{
+	font-size: 7rem;
+	font-weight: lighter;
+	padding-bottom: 1rem;
+}
+
+.third-section + section svg + span{
+	font-size: 3rem;
+	color: black;
+	padding-bottom: 0;
+}
+
+.third-section + section aside {
+	color: gray;
+	padding-bottom: 2rem;
+}
+
+.third-section + section aside + span >{
+	font-size: 3rem;
+}
+
+.third-section + section >  p{
+	padding-left: 30rem;
+	padding-right: 30rem;
+	font-size: 2rem;
+	line-height: 3rem;
+	padding-bottom: 10rem;
+}

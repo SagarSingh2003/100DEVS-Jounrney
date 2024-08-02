@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign In</h1>
+    <form action="/auth/signin/password" method="get">
+        <section>
+            <input type="email" placeholder="enter your email" name="username" autocomplete="on" required>
+        </section>
+        <section>
+            <input type="password" placeholder="enter your password" name="password" autocomplete="on" required>
+        </section>
+
+        <button type="submit">SignIn</button>
+
+    </form>
+    <section>
+        don't have an account ? <a href="./signup">SignUp</a>
+    </section>
+</body>
+</html>

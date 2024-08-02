@@ -1,0 +1,425 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* ===========================ADDITIONAL STYLES============================ */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* =================header=============== */
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav{
+    box-sizing: border-box;
+}
+
+nav ul li , nav span{
+    float: left;
+    width: 7%;
+    padding-top: 2%;
+}
+
+nav ul li:first-child{
+    padding-left: 50%;
+}
+
+/* ======================first-section================= */
+
+header + section > section{
+    box-sizing: border-box;
+    float: left;
+    width: 35%;    
+    margin-left: 10%;
+    padding-bottom: 5rem;
+}
+
+header + section > section h1{
+    font-weight: bold;
+    font-size: 5rem;
+    padding-top: 20rem;
+    padding-bottom: 3rem;
+}
+
+header + section > section p {
+    font-size: 2rem;
+    padding-bottom: 7rem;
+}
+
+header + section > section ul li {
+    float: left;
+    width: 50%;
+}
+
+div{
+    height: 40rem;
+    border: 2px solid black;
+    margin-top: 20rem;
+    margin-right: 3rem;
+}
+
+/* ==========================second-section================ */
+
+.second-section{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    text-align: right;
+}
+
+.second-section img{
+    padding-right: 6rem;
+
+}
+
+/* ===========================third-section====================== */
+
+
+.third-section > section {
+    float: left;
+    width: 35%;
+    padding-top: 10rem;
+}
+
+.third-section > section + section{
+    width: 65%;
+}
+.third-section section + section > section{
+    float: left;
+    width: 50%;
+}
+
+.third-section section > span.sub-heading{
+    color: gray;
+    padding-left: 24%;
+    font-size: 1.3rem;
+
+}
+
+.third-section section > h2{
+    padding-top: 3rem;
+    padding-left: 24%;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.third-section section > p{
+    padding-left: 24%;
+    padding-bottom: 7rem;
+    font-size: 2rem;
+}
+
+.third-section section > a{
+    padding-left: 24%;
+    font-size: 2rem;
+}
+
+.third-section section > img{
+    height: 16rem;
+    display: block;
+    text-align: center;
+}
+
+.third-section section + section {
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.third-section section + section > section > span {
+    display: block;
+    text-align: center;
+}
+
+.third-section section + section > section > p{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 1rem;
+}
+
+/* ==========================fourth-section============ */
+
+.fourth-section{
+    margin-bottom: 20rem;
+}
+
+.fourth-section > section {
+    float: left;
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+.fourth-section > section + section{
+    margin-left: 5%;
+}
+
+.fourth-section > section > div{
+    margin-top: 0;
+    height: 40rem;
+    border: 2px solid black;
+    /* margin-left: 18%; */
+}
+
+.fourth-section section + section > span{
+    color: gray;
+    font-size: 1.3rem;
+    display: block;
+    padding-bottom: 3rem;
+}
+
+.fourth-section section + section > h2{
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.fourth-section section + section > p{
+    padding-bottom: 7rem;
+    font-size: 2rem;
+}
+
+.fourth-section section + section > a{
+    font-size: 2rem;
+}
+
+/* =================fifth-section============== */
+
+.fifth-section > h2 , .fifth-section > p{
+    text-align: center;
+}
+
+.fifth-section > h2{
+    font-size: 4rem;
+}
+
+.fifth-section > p{
+    padding: 3rem 35rem;
+    font-size: 2rem;
+}
+
+.fifth-section{
+    margin-bottom: 2rem;
+}
+
+.fifth-section > section {
+    float: left;
+    width: 35%;
+    margin-top: 7rem;
+    margin-left: 10%;
+}
+
+.fifth-section > section + section{
+    margin-left: 5%;
+}
+
+.fifth-section > section > div{
+    margin-top: 0;
+    height: 70rem;
+    border: 2px solid black;
+    /* margin-left: 18%; */
+}
+
+.fifth-section > a{
+    display: block;
+}
+
+.fifth-section section + section > span {
+    color: gray;
+    font-size: 1.3rem;
+    display: block;
+    padding-bottom: 3rem;
+}
+
+.fifth-section section + section h2{
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+.fifth-section section + section  p {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.fifth-section section + section ul li span{
+    font-weight: bold;
+    display: block;
+    padding-bottom: 1dvi;
+    font-size: 20px;
+}
+
+/* ============= the standalone anchor tag============== */
+
+a.stand-alone{
+    display: block;
+    font-size: 2rem;
+    text-align: center;   
+    margin-top: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    
+}
+
+/* ========================sixth-section==copy of 4th section==================== */
+
+.seventh-section span , .seventh-section p{
+    display: block;
+    text-align: center;
+}
+
+.seventh-section span {
+    padding-bottom: 1.5rem;
+}
+
+.seventh-section span:first-child{
+    font-size: 1.3rem;
+    color: gray;
+    padding-bottom: 3rem;
+}
+
+.seventh-section span:last-child{
+    padding-left: 1.8rem;
+}
+
+.seventh-section p{
+    font-size: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+
+/* ============================eighth-section========= */
+
+.eighth-section{
+    border: 1px solid black;
+    margin-top: 10rem;
+}
+.eighth-section > section{
+    padding: 4rem 0;
+    float: left;
+    width: 50%;
+}
+
+.eighth-section > section > span{
+    font-size: 1.3rem;
+    color: gray;
+    padding-left: 35rem;
+}
+
+.eighth-section > section > p{
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 35rem;
+}
+
+.eighth-section > section  a {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.eighth-section > section a:first-child{
+    width: 35%;
+}
+
+
+
+
+/* ==============================footer====================== */
+
+footer{
+    margin-top: 6rem;
+    padding-bottom: 10rem;
+    margin-left: 30rem;
+    margin-right: 20rem;
+}
+
+footer > section {
+    float: left;
+    width: 15%;
+}
+
+footer > section > span{
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+footer > section > ul > li {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 2rem; 
+    color: gray;
+}
+
+footer > section > ul > li:last-child{
+    padding-bottom: 10rem;
+}
